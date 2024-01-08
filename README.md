@@ -1,10 +1,14 @@
-### Problem 1
+### Technologies
+* Python
+* SciPy, Pandas, NumPy, Matplotlib
+  
+### BoxPlot Problem
 
 Implementation of a function that takes a vector of numbers as an input and outputs the values needed to plot the boxplot.
 Specifically, the function should output the 1st quartile (q1), 2nd quartile (q2), 3rd quartile (q3),
 the inter-quartile range, a vector containing the outlier points and the vector containing the extreme outlier points
 
-### Problem 2
+### Central Limit Theorem Problem 
 
 Implementation of a function to verify the Central Limit Theorem using throwing a die example. 
 The steps of the function should be as follows:
@@ -21,9 +25,9 @@ The steps of the function should be as follows:
 <li>Calculate the mean and variance.</li>
 </ol>
 
-### Problem 3 
+### P-Value Problem
 
-Implementation of  a function that computes the p-value to test the hypothesis that the mean of one dataset is equal to
+Implementation of a function that computes the p-value to test the hypothesis that the mean of one dataset is equal to
 the mean of another dataset. The function should take as inputs the two datasets and the significance level, and outputs the p-value 
 in addition to the boundaries of the acceptance region. The significance level is 0.05 : 
 <ul>
